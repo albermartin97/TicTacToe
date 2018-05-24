@@ -42,8 +42,8 @@ public class SystemTest {
 		WebElement alejandro = driver2.findElement(By.id("nickname"));
 		alejandro.sendKeys("Alejandro");
 		
-		waitAlberto = new WebDriverWait(driver1,3);
-		waitAlejandro = new WebDriverWait(driver2,3);
+		waitAlberto = new WebDriverWait(driver1,6);
+		waitAlejandro = new WebDriverWait(driver2,6);
 		
 		buttonPlay1 = driver1.findElement(By.id("startBtn"));
 		buttonPlay2 = driver2.findElement(By.id("startBtn"));
